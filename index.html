@@ -35,6 +35,7 @@
       <main class="mdl-layout__content">
         <form action="#">
           <div class="page-content">
+            <h1>Formula: V = A³</h1>
             <!--This is the text-->
             <h3>Enter a Side Length and Click the Button</h3>
             <div class="mdl-textfield mdl-js-textfield">
@@ -50,17 +51,15 @@
               >
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
+            <div id="volume"></div>
           </div>
         </form>
-        <div class="photo">
-          <h4>V = A³</h4>
-          <img src="./images/cube.png" alt="calculator" />
-          <style>
-            img {
-              float: right;
-            }
-          </style>
-        </div>
+        <img src="./images/cube.png" alt="calculator" />
+        <style>
+          img {
+            float: right;
+          }
+        </style>
         <br />
         <!-- Colored raised button -->
         <button
@@ -71,7 +70,6 @@
         </button>
         <br />
         <br />
-        <div id="volume"></div>
       </main>
     </div>
   </body>
